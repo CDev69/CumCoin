@@ -1,3 +1,4 @@
+
 /*
 chacha-merged.c version 20080118
 D. J. Bernstein
@@ -6,10 +7,9 @@ Public domain.
 
 #include <memory.h>
 #include <stdio.h>
-#include <sys/param.h>
 
 #include "chacha8.h"
-#include "Common/int-util.h"
+#include "int-util.h"
 
 /*
  * The following macros are used to obtain exact-width results.
